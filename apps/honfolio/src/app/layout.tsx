@@ -1,3 +1,5 @@
+import "@neri/ui-components/styles.css";
+
 export default function RootLayout({
   children,
 }: {
