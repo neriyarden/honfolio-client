@@ -2,6 +2,6 @@
   "extends": ["@neri/eslint-config-custom/next.js"],
   "root": true,
   "parserOptions": {
-    "project": "./apps/honfolio/tsconfig.json"
+    "project": "./tsconfig.json"
   }
 }
