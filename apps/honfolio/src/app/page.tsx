@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { DemoButton } from "@neri/ui-components";
 
 export const metadata: Metadata = {

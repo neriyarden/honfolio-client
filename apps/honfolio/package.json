@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@neri/configs": "^0.0.0",
     "@neri/ui-components": "*",
     "next": "^13.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@neri/eslint-config-custom": "*",
     "@next/eslint-plugin-next": "^13.4.19",
     "@testing-library/react": "^14.0.0",
     "@types/node": "^17.0.12",

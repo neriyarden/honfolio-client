@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["@neri/eslint-config-custom/next.js"],
+  "root": true,
+  "parserOptions": {
+    "project": "./apps/honfolio/tsconfig.json"
+  }
 }
