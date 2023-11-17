@@ -22,9 +22,9 @@
     "@testing-library/react": "^14.0.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.30",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+	"@neri/eslint-config-custom": "^0.0.0"
   },
   "dependencies": {
-    "@neri/eslint-config-custom": "^0.0.0"
   }
 }
