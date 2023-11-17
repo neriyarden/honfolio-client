@@ -4,6 +4,6 @@ type Props = {
   children: React.ReactNode;
 };
 
-export const DemoButton = ({ children }: Props) => {
-  return <button>{children}</button>;
-};
+export function DemoButton({ children }: Props) {
+  return <button type="submit">{children}</button>;
+}
