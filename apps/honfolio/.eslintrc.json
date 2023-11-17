@@ -1,5 +1,5 @@
 {
-  "extends": ["@neri/eslint-config-custom/next.js"],
+  "extends": "@neri/eslint-config-custom/next.js",
   "root": true,
   "parserOptions": {
     "project": "./tsconfig.json"

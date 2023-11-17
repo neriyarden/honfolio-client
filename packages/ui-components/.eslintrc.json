@@ -1,4 +1,7 @@
 {
-  "extends": ["@neri/eslint-config-custom"],
-  "root": true
+  "extends": "@neri/eslint-config-custom/react-internal.js",
+  "root": true,
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
