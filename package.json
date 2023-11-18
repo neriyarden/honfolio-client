@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "build:ui": "turbo run build --filter ui-components",
+    "build:ui": "turbo run build --filter @neri/ui-components",
+    "build:hon": "turbo run build --filter honfolio",
     "dev": "turbo run dev",
     "dev:hon": "turbo run dev --filter honfolio",
     "lint": "turbo run lint",
