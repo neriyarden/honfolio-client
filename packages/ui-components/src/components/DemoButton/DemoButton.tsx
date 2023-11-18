@@ -1,9 +1,9 @@
-type Props = {}
+import React from "react";
 
-const DemoButton = (props: Props) => {
-  return (
-	<div>DemoButton</div>
-  )
+type Props = {
+  children: React.ReactNode;
+};
+
+export function DemoButton({ children }: Props) {
+  return <button type="submit">{children}</button>;
 }
-
-export default DemoButton

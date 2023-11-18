@@ -1,0 +1,8 @@
+{
+  "extends": "@neri/eslint-config/react-internal",
+  "root": true,
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": ["babel.config.js", "jest.config.ts"]
+}

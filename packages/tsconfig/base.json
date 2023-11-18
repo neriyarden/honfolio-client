@@ -13,9 +13,11 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
+    "jsx": "react-jsx",
     "skipLibCheck": true,
     "strict": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "noEmit": true
   },
   "exclude": ["node_modules"]
 }
