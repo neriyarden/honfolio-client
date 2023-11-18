@@ -4,8 +4,12 @@
     "build": "turbo run build",
     "build:ui": "turbo run build --filter ui-components",
     "dev": "turbo run dev",
-    "dev:honfolio": "turbo run dev --filter honfolio",
+    "dev:hon": "turbo run dev --filter honfolio",
     "lint": "turbo run lint",
+    "lint:hon": "turbo run lint --filter honfolio",
+    "lint:ui": "turbo run lint --filter @neri/ui-components",
+    "test:hon": "turbo run test --filter hofolio",
+    "test:ui": "turbo run test --filter @neri/ui-components",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {

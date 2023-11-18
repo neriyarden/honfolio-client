@@ -21,5 +21,6 @@ module.exports = {
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
     "unicorn/filename-case": "off",
+    "no-console": "warn",
   },
 };

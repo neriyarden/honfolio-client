@@ -1,7 +1,5 @@
 const { resolve } = require("node:path");
 
-const project = resolve(process.cwd(), "tsconfig.json");
-
 module.exports = {
   extends: [
     "@vercel/style-guide/eslint/node",
@@ -9,27 +7,10 @@ module.exports = {
     "@vercel/style-guide/eslint/typescript",
     "@vercel/style-guide/eslint/react",
     "@vercel/style-guide/eslint/next",
-    "eslint-config-turbo",
-    "@neri/eslint-config-custom/base.js",
+    "@neri/eslint-config-custom/base",
   ].map(require.resolve),
-  parserOptions: {
-    project,
-  },
   globals: {
     React: true,
     JSX: true,
-  },
-  settings: {
-    "import/resolver": {
-      typescript: {
-        project,
-      },
-    },
-  },
-  ignorePatterns: ["node_modules/", "dist/"],
-  rules: {
-    "import/no-default-export": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-unsafe-assignment": "off",
   },
 };
