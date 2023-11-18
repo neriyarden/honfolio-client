@@ -7,7 +7,7 @@ module.exports = {
     "@vercel/style-guide/eslint/typescript",
     "@vercel/style-guide/eslint/react",
     "@vercel/style-guide/eslint/next",
-    "@neri/eslint-config-custom/base",
+    "@neri/eslint-config/base",
   ].map(require.resolve),
   globals: {
     React: true,

@@ -13,7 +13,7 @@ module.exports = {
   extends: [
     "@vercel/style-guide/eslint/node",
     "@vercel/style-guide/eslint/typescript",
-    "@neri/eslint-config-custom/base",
+    "@neri/eslint-config/base",
   ].map(require.resolve),
   globals: {
     React: true,

@@ -1,5 +1,5 @@
 {
-  "name": "@neri/eslint-config-custom",
+  "name": "@neri/eslint-config",
   "license": "MIT",
   "version": "0.0.0",
   "private": true,

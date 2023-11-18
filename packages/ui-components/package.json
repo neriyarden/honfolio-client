@@ -24,7 +24,7 @@
     "@babel/preset-react": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
     "@jest/types": "^29.6.3",
-    "@neri/eslint-config-custom": "^0.0.0",
+    "@neri/eslint-config": "^0.0.0",
     "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^14.1.2",
     "autoprefixer": "^10.4.16",

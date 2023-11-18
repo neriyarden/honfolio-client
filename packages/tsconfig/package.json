@@ -7,6 +7,6 @@
     "access": "public"
   },
   "devDependencies": {
-	"@neri/eslint-config-custom": "*"
+    "@neri/eslint-config": "*"
   }
 }

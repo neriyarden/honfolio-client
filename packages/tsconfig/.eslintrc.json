@@ -1,4 +1,4 @@
 {
-	"extends": ["@neri/eslint-config-custom"],
-	"root": true
+  "extends": ["@neri/eslint-config/base"],
+  "root": true
 }
