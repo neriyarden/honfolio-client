@@ -10,6 +10,7 @@ module.exports = {
     "@vercel/style-guide/eslint/react",
     "@vercel/style-guide/eslint/next",
     "eslint-config-turbo",
+    "@neri/eslint-config-custom/base.js",
   ].map(require.resolve),
   parserOptions: {
     project,

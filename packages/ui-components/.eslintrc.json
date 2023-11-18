@@ -3,5 +3,6 @@
   "root": true,
   "parserOptions": {
     "project": "./tsconfig.json"
-  }
+  },
+  "ignorePatterns": ["babel.config.js", "jest.config.ts"]
 }
