@@ -2,6 +2,9 @@
   "$schema": "https://turbo.build/schema.json",
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
+    "nonExistantCommand": {
+      "dependsOn": ["^nonExistantCommand"]
+    },
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
@@ -9,10 +12,15 @@
     "test": {
       "inputs": ["src/**/*.tsx", "src/**/*.ts", "**/*.test.ts", "**/*.test.tsx"]
     },
-    "lint": {},
+    "lint": {
+      "dependsOn": ["^nonExistantCommand"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "typecheck": {
+      "dependsOn": ["^nonExistantCommand"]
     }
   }
 }

@@ -3,14 +3,13 @@
   "description": "UI Components for Neri's projects",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "eslint --fix 'src/**/*.{ts,tsx}'",
     "test": "jest",
-	"test:watch": "jest --watch",
+    "test:watch": "jest --watch",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [

@@ -11,12 +11,11 @@
     "lint:ui": "turbo run lint --filter @neri/ui-components",
     "test:hon": "turbo run test --filter hofolio",
     "test:ui": "turbo run test --filter @neri/ui-components",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
     "@neri/tsconfig": "^0.0.0",
-    "eslint": "^8.48.0",
-    "eslint-import-resolver-typescript": "^3.6.1",
     "prettier": "^3.0.3",
     "turbo": "1.10.14",
     "typescript": "^5.2.2"
