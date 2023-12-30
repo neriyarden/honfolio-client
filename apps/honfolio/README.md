@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HonFolio
+
+Welcome to HonFolio, a Next.js based client application for managing investment portfolios. This application is part of a larger monorepo and leverages npm workspaces for dependency management.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (version 14 or higher)
+- npm (version 7 or higher, which supports workspaces)
+
+### Installation
+
+First, clone the entire monorepo and navigate to the root directory:
+
+```
+git clone https://github.com/your-username/honfolio-client.git
+cd honfolio-client
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies for all workspaces from the root of the monorepo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Running the HonFolio Application
 
-## Learn More
+To run the HonFolio app located in `apps/honfolio`, use the npm workspaces command from the monorepo root:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev -w honfolio
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Building the Application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To build the HonFolio app for production:
 
-## Deploy on Vercel
+```
+npm run build -w honfolio
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Running in Production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To start the HonFolio app in production mode:
+
+```
+npm run start -w honfolio
+```
+
+### Linting and Testing
+
+Lint the application:
+
+```
+npm run lint -w honfolio
+```
+
+Run tests:
+
+```
+npm run test -w honfolio
+```
+
+Perform type checking:
+
+```
+npm run typecheck -w honfolio
+```
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+## Additional Resources
+
+- [Project Documentation](./docs)
+- [Issue Tracker](https://github.com/your-username/honfolio-client/issues)
+- [Pull Requests](https://github.com/your-username/honfolio-client/pulls)
