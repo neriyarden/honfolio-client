@@ -13,7 +13,8 @@
     "test:hon": "turbo run test --filter honfolio",
     "test:ui": "turbo run test --filter @neri/ui-components",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "ci": " npm run build && npm run test && npm run lint && npm run typecheck"
   },
   "devDependencies": {
     "@neri/tsconfig": "^0.0.0",
