@@ -4,7 +4,7 @@ import { cn } from "@/utils/cn";
 
 import "@neri/ui-components/styles.css";
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
