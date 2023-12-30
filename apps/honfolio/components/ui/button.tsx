@@ -44,7 +44,6 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const Comp = asChild ? Slot : "button";
     return (
       <Comp
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-call -- not sure why its an any here, needs further investigation
         className={cn(buttonVariants({ variant, size, className }))}
         ref={ref}
         {...props}
