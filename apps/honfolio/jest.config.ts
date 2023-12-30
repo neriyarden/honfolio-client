@@ -7,7 +7,7 @@ const config: Config.InitialOptions = {
     "\\.(css|less|sass|scss)$": "identity-obj-proxy",
     "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js",
   },
-  setupFilesAfterEnv: ["<rootDir>/src/tests/setupTests.ts"],
+  setupFilesAfterEnv: ["<rootDir>/tests/setupTests.ts"],
   transform: {
     "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
   },
