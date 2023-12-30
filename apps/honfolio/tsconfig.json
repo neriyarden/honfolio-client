@@ -10,7 +10,7 @@
       "@/app/*": ["./app/*"],
       "@/components/*": ["./components/*"],
       "@/styles/*": ["./styles/*"],
-      "@/lib/*": ["./lib/*"],
+      "@/lib/*": ["./lib/*"]
     }
   },
   "include": [
