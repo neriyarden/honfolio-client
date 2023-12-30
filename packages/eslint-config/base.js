@@ -21,6 +21,7 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/no-unsafe-call": "off", // TODO - remove
     "unicorn/filename-case": "off",
     "no-console": "warn",
     "simple-import-sort/exports": "error",
