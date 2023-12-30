@@ -1,1 +1,6 @@
-module.exports = require("@neri/configs/tailwind/postcss.config");
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
