@@ -8,8 +8,8 @@
     ],
     "paths": {
       "@/app/*": ["./app/*"],
-      "@/components/*": ["./app/*"],
-      "@/styles/*": ["./app/*"],
+      "@/components/*": ["./components/*"],
+      "@/styles/*": ["./styles/*"],
       "@/lib/*": ["./lib/*"],
     }
   },
