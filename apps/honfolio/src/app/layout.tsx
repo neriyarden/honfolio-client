@@ -2,7 +2,7 @@ import { Inter as FontSans } from "next/font/google";
 
 import { cn } from "@/utils/cn";
 
-import "@neri/ui-components/styles.css";
+import "@/styles/global.css";
 
 const fontSans = FontSans({
   subsets: ["latin"],
