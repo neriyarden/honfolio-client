@@ -23,7 +23,8 @@ module.exports = {
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/no-unsafe-call": "off", // TODO - remove
     "unicorn/filename-case": "off",
-    "no-console": "warn",
+    "no-console": ["warn", { allow: ["warn", "error"] }],
+    "object-shorthand": "error",
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": [
       "error",

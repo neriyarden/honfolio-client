@@ -1,6 +1,12 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["**/.env.*local"],
+  "globalEnv": [
+    "NEXT_PUBLIC_*",
+    "!NEXT_PUBLIC_VERCEL_*",
+    "NODE_ENV",
+    "ALPHA_VANTAGE_API_KEY"
+  ]
+  ,"globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "nonExistantCommand": {
       "dependsOn": ["^nonExistantCommand"]
